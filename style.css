@@ -1,0 +1,79 @@
+
+
+
+
+
+
+caption {
+  text-align: center;
+}
+
+div
+{
+display: inline-block;
+display: table-cell;	
+text-align: center; 
+}
+
+
+/*  ==================================== footer======================================*/
+
+#footer {          
+    position: relative;
+    bottom: 0;
+       }
+
+/*===================================================================================*/
+h1
+{
+	color:black;
+	text-align: center;
+		
+}
+
+
+                /*=====================contents text===================== */
+
+body  
+{ 
+	background-color: #74AFAD;
+}	
+
+
+p
+{                        
+	text-align: center;
+	
+    color: black;
+    background-color: #D9853B;
+    padding-bottom: 2px;
+    padding-top: 2px;   	
+}
+
+
+                   /*========================= different  css ===========================*/
+li
+{
+	background-color: #ECECEA;
+	text-align: center;
+}
+
+                 /*========================== colonne==================================== */
+
+ul                     
+{
+	background-color:#558C89
+;
+	list-style-type:none;
+	text-align: center;
+
+}
+          /*========================= responsive ===============================================*/
+
+   @media screen and (max-width: 780px)
+{
+     div
+     {
+     display: block;
+     }
+}
